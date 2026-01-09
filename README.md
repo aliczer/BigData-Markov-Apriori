@@ -1,11 +1,15 @@
-# Markov Chains & Apriori
+# Big Data – Markov Chains and Apriori
 
-Projekt wykonany w ramach przedmiotu Big Data.
+Projekt zaliczeniowy z przedmiotu Big Data.
 
-Repozytorium zawiera:
-- implementację łańcuchów Markowa do generowania tekstu spamowego,
-- analizę reguł asocjacyjnych (Apriori) dla SMS-ów spamowych.
+## Zawartość repozytorium
+- `Markov.ipynb` – generowanie tekstu SMS spam za pomocą łańcuchów Markowa (k = 1,2,3)
+- `Apriori.ipynb` – analiza reguł asocjacyjnych dla SMS-ów spamowych
 
-Kod był uruchamiany w środowisku Databricks (Apache Spark, PySpark).
+## Dane
+Wykorzystano zbiór SMS Spam Collection dostępny w środowisku Databricks:
+`dbfs:/databricks-datasets/sms_spam_collection/`
 
-Autor: Alicja Czerner
+## Środowisko
+- Databricks Serverless
+- PySpark DataFrame API
